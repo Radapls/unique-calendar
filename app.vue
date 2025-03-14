@@ -92,38 +92,6 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
 @import url("~/assets/css/main.css");
-
-.clock-container {
-  background-color: lightblue;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-svg {
-  max-height: 950px;
-}
-
-textPath {
-  font-size: 3px;
-  fill: white;
-  font-weight: bold;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-textPath:hover {
-  fill: red;
-}
-
-button {
-  position: absolute;
-  top: 50%;
-}
 </style>
