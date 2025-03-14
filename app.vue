@@ -27,6 +27,7 @@
 </template>
 
 <script>
+import '~/assets/css/first.css'
 export default {
   data() {
     return {
@@ -92,6 +93,8 @@ export default {
 
 
 <style>
+@import url("~/assets/css/second.css");
+
 .clock-container {
   background-color: lightblue;
   width: 100vw;
